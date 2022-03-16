@@ -1,9 +1,12 @@
 A simple example of [jep](https://github.com/ninia/jep) backed by Maven and conda.
 
+NB: This example installs jep from PyPI, not jep from conda-forge. Unfortunately,
+jep on conda-forge only has linux-64 binaries, and is outdated.
+
 Run me via:
 
 ```
-conda create -c conda-forge -n jeptest python=3.7 openjdk=8 jep
+conda env update
 conda activate jeptest
 mvn -Pexec
 ```

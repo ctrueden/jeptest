@@ -1,0 +1,9 @@
+name: jeptest
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - openjdk=8
+  - pip
+  - pip:
+    - jep
