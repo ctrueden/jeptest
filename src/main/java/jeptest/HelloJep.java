@@ -31,7 +31,6 @@ public class HelloJep {
     // HACK: Let jep discover the jep shared library from conda installation.
     String condaPrefix = System.getenv("CONDA_PREFIX");
     String pythonHome = System.getenv("PYTHONHOME");
-    String stupid = System.getenv("STUPID");
     if (condaPrefix != null && pythonHome == null) {
       MainInterpreter.setJepLibraryPath(findJepLibrary(new File(condaPrefix)).getAbsolutePath());
     }
