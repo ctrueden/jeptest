@@ -3,7 +3,7 @@ A simple example of [jep](https://github.com/ninia/jep) backed by Maven and cond
 Run me via:
 
 ```
-conda create -n jeptest python=3.7 openjdk=8 jep
+conda create -c conda-forge -n jeptest python=3.7 openjdk=8 jep
 conda activate jeptest
 mvn -Pexec
 ```
