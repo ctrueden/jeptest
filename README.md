@@ -1,3 +1,5 @@
+A simple example of [jep](https://github.com/ninia/jep) backed by Maven and conda.
+
 Run me via:
 
 ```
